@@ -1,0 +1,75 @@
+body {
+    background-color: #2b2b2b;
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: orange;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#hero {
+    text-align: center;
+    padding: 50px;
+    background-image: url('spooky-bg.jpg'); /* Use a spooky background image */
+    background-size: cover;
+}
+
+button {
+    background-color: orange;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkorange;
+}
+
+.profile-card {
+    background-color: #333;
+    border: 1px solid #666;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    display: inline-block;
+    width: calc(33% - 40px);
+}
+
+.profile-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #000;
+}
+
+footer h2 {
+    color: orange;
+}
