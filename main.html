@@ -9,53 +9,36 @@
 <body>
     <header>
         <h1>Find Your Boo</h1>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#profiles">Ghostly Profiles</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
     </header>
 
     <main>
-        <section id="hero">
-            <h2>Welcome to Your Spooktacular Adventure!</h2>
-            <p>Connect with fellow ghouls and find your perfect match this Halloween season.</p>
-            <button onclick="location.href='#profiles'">Get Started</button>
-        </section>
-
-        <section id="about">
-            <h2>About Us</h2>
-            <p>At Find Your Boo, we believe love knows no bounds—even beyond the grave. Join us to meet other spooky singles!</p>
-        </section>
-
-        <section id="profiles">
-            <h2>Featured Ghostly Profiles</h2>
-            <div class="profile-card">
-                <img src="ghost1.jpg" alt="Ghostly Profile 1">
+        <section id="swipe-area">
+            <div class="card" id="profile1">
+                <img src="ghost1.jpg" alt="Elvira">
                 <h3>Elvira</h3>
                 <p>Age: 29</p>
                 <p>Interests: Haunting, Candlelit dinners, Witchcraft</p>
-                <button>Send a Howl</button>
             </div>
-            <div class="profile-card">
-                <img src="ghost2.jpg" alt="Ghostly Profile 2">
+            <div class="card" id="profile2">
+                <img src="ghost2.jpg" alt="Count Vlad">
                 <h3>Count Vlad</h3>
                 <p>Age: 300</p>
                 <p>Interests: Blood-red wine, Moonlit walks, Spooky stories</p>
-                <button>Send a Howl</button>
             </div>
             <!-- Add more profiles as needed -->
         </section>
+        <div class="buttons">
+            <button id="nope">👎</button>
+            <button id="love">❤️</button>
+        </div>
     </main>
 
     <footer>
-        <h2>Contact Us</h2>
         <p>Email: spooky@findyourboo.com</p>
         <p>Phone: (666) 666-6666</p>
         <p>&copy; 2024 Find Your Boo. All rights reserved.</p>
     </footer>
+
+    <script src="script.js"></script> <!-- Link to your JavaScript file -->
 </body>
 </html>
